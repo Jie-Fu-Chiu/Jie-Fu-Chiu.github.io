@@ -1,0 +1,164 @@
+.title-upper-space{
+   height: 85px;
+}
+.title-bottom-space{
+   height: 60px;
+}
+.news{
+   width: 1200px;
+   margin: auto;
+}
+h2 {
+   font-family: 'Noto Serif TC', serif;
+   color: #333333;
+   font-size: 1.7em;
+   letter-spacing: 0.1em;
+   text-align: center;
+}
+.card-wrap {
+   display: flex;
+   flex-wrap: wrap;
+   margin: auto;
+   justify-content: space-between;
+}
+.card-image {
+   width: 285px;
+   height: 285px;
+}
+.card-image img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+h4 {
+   font-family: 'Noto Serif TC', serif;
+   font-size: 16px;
+   letter-spacing: 0.1em;
+   color: #576943;
+   padding: 15px 0 30px 10px;
+}
+.news-info {
+   width: 285px;
+   height: 215px;
+   background-color: #fff;
+   box-shadow: 2px 2px 4px rgb(120, 120, 120);
+}
+.news-info p {
+   line-height: 25px;
+   font-size: 14px;
+   padding: 0px 20px 30px 10px;
+   font-family: 'Noto Sans TC', sans-serif;
+}
+.news-info span {
+   line-height: 25px;
+   font-size: 10px;
+   letter-spacing: 0.1em;
+   font-family: 'Lato', sans-serif;
+   color: #404040;
+   display: block;
+   padding-right: 20px;
+   text-align: right;
+   opacity: 70%;
+}
+.btn-viewmore a {
+   font-size: 16px;
+   letter-spacing: 0.1em;
+   text-decoration: none;
+   font-family: 'Lato', sans-serif;
+   color: #333333;
+   display: inline-block;
+   width: 100%;
+   padding: 25px 20px 85px 0px;
+   text-align: right;
+}
+.event-bottom-space {
+   height: 25px;
+}
+.together-enjoy-slogan {
+   font-size: 1.13em;
+   line-height: 36px;
+   letter-spacing: 0.05em;
+   text-decoration: underline;
+   color: #333333;
+   font-family: 'Noto Serif TC', serif;
+   text-align: center;
+}
+.experience-tea-slogan {
+   font-size: 1.13em;
+   line-height: 36px;
+   letter-spacing: 0.05em;
+   text-decoration: underline;
+   color: #333333;
+   font-family: 'Noto Serif TC', serif;
+   text-align: center;
+}
+.index-event-section{
+   width: 1200px;
+   margin: auto;
+}
+.chinesechado,.flowerandtea,.japanesechado{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 40px 0;
+}
+.index-event-image{
+   width: 565px;
+   height: 370px;
+   margin-right: -3%;
+   position: relative;
+}
+.flowerandtea {
+   flex-direction: row-reverse;
+}
+.flowerandtea .index-event-image {
+   margin-left: -3%;
+   margin-right: 0;
+}
+.index-event-image img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   box-shadow: 2px 2px 4px rgb(120, 120, 120);
+   /* margin-right: -10%; */
+}
+.index-event-info{
+   width: 565px;
+   height: 470px;
+   background-color: #fff;
+   border: 1px solid #bebebe;
+}
+.event-title{
+   display: flex;
+   justify-content: center;
+   margin: 50px;
+}
+.event-title span{
+   font-size: 18px;
+   letter-spacing: 0.5em;
+   padding: 6px;
+   color: #576943;
+   font-family: 'Noto Serif TC', serif;
+   writing-mode: vertical-lr;
+}
+.event-content{
+   width: 400px;
+   height: 300px;
+   margin: auto;
+}
+.event-content p{
+   font-size: 14px;
+   line-height: 25px;
+   color: #333333;
+   font-family: 'Noto Sans TC', sans-serif;
+}
+.index-contact-section{
+   width: 1200px;
+   margin: auto;
+}
+.index-contact-section img{
+   width: 1200px;
+   height: 600px;
+   object-fit: cover;
+   transform:scaleX(-1);
+}

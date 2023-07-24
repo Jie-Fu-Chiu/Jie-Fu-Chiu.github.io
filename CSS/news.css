@@ -1,0 +1,40 @@
+.title-upper-space{
+   height: 85px;
+}
+.title-bottom-space{
+   height: 60px;
+}
+.news-banner{
+    width: 100%;
+    height: 526px;
+}
+.news-banner-image img{
+    width: 100%;
+}
+.about-us-ch{
+    writing-mode: vertical-lr;
+    font-size: 28px;
+    font-family: 'Noto Serif TC', serif;
+    letter-spacing: 0.3em;
+    color: white;
+    position: absolute;
+    left: 47%;
+    bottom: 33%;
+ }
+ .title-line{
+    border-left: 1.5px solid #fff;
+    height:30%;
+    position: absolute;
+    left: 50%;
+    bottom: 31%;
+ }
+ .about-us-en{
+    writing-mode: vertical-lr;
+    font-size: 28px;
+    font-family: 'Old Standard TT', serif;
+    letter-spacing: 0.1em;
+    color: white;
+    position: absolute;
+    right: 47%;
+    bottom: 31%;
+ }
