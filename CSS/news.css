@@ -11,6 +11,7 @@
 }
 .news-banner img{
     width: 100%;
+    height: 526px;
     object-fit: cover;
 }
 .news-ch{
@@ -46,4 +47,29 @@
  .news-section{
    width: 800px;
    height: 160px;
+   margin: 10px;
+   border: 1.2px solid #707070;
+   display: flex;
  }
+ .news-section-image{
+   width: 180px;
+   height: 120px;
+   padding: 10px;
+ }
+ .news-section-image img{
+   width: 100%;
+   object-fit: cover;
+ }
+ h4 {
+   font-family: 'Noto Serif TC', serif;
+   font-size: 16px;
+   letter-spacing: 0.1em;
+   color: #576943;
+   padding: 10px 0 10px 10px;
+}
+p{
+   line-height: 20px;
+   font-size: 14px;
+   padding: 0px 20px 30px 10px;
+   font-family: 'Noto Sans TC', sans-serif;
+}
