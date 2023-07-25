@@ -7,11 +7,13 @@
 .news-banner{
     width: 100%;
     height: 526px;
+    position: relative;
 }
-.news-banner-image img{
+.news-banner img{
     width: 100%;
+    object-fit: cover;
 }
-.about-us-ch{
+.news-ch{
     writing-mode: vertical-lr;
     font-size: 28px;
     font-family: 'Noto Serif TC', serif;
@@ -28,7 +30,7 @@
     left: 50%;
     bottom: 31%;
  }
- .about-us-en{
+ .news-en{
     writing-mode: vertical-lr;
     font-size: 28px;
     font-family: 'Old Standard TT', serif;
@@ -36,5 +38,12 @@
     color: white;
     position: absolute;
     right: 47%;
-    bottom: 31%;
+    bottom: 40%;
+ }
+ .news-column{
+   width: 1200px;
+ }
+ .news-section{
+   width: 800px;
+   height: 160px;
  }
