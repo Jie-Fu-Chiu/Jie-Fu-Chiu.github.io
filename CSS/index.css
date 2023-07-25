@@ -7,25 +7,42 @@
 .news{
    width: 1200px;
    margin: auto;
+   position: relative;
 }
-h2 {
+h2{
    font-family: 'Noto Serif TC', serif;
    color: #333333;
    font-size: 1.7em;
    letter-spacing: 0.1em;
    text-align: center;
 }
-.card-wrap {
+.news-upper-decoration{
+   width: 130px;
+   height: 50px;
+   border: 1px solid #576943;
+   position: absolute;
+   left: 44.5%;
+   top: 6.6%;
+}
+.news-bottom-decoration{
+   width: 130px;
+   height: 50px;
+   border: 1px solid #576943;
+   position: absolute;
+   left: 44%;
+   top: 7.5%;
+}
+.card-wrap{
    display: flex;
    flex-wrap: wrap;
    margin: auto;
    justify-content: space-between;
 }
-.card-image {
+.card-image{
    width: 285px;
    height: 285px;
 }
-.card-image img {
+.card-image img{
    width: 100%;
    height: 100%;
    object-fit: cover;
@@ -74,6 +91,23 @@ h4 {
 .index-product-section{
    width: 1200px;
    margin: auto;
+   position: relative;
+}
+.product-upper-decoration{
+   width: 130px;
+   height: 50px;
+   border: 1px solid #576943;
+   position: absolute;
+   left: 44.5%;
+   top: 3.1%;
+}
+.product-bottom-decoration{
+   width: 130px;
+   height: 50px;
+   border: 1px solid #576943;
+   position: absolute;
+   left: 44%;
+   top: 3.5%;
 }
 .product-slogan{
    position: relative;
@@ -188,6 +222,23 @@ h4 {
 .index-event-section{
    width: 1200px;
    margin: auto;
+   position: relative;
+}
+.event-upper-decoration{
+   width: 130px;
+   height: 50px;
+   border: 1px solid #576943;
+   position: absolute;
+   left: 44.5%;
+   top: 2.6%;
+}
+.event-bottom-decoration{
+   width: 130px;
+   height: 50px;
+   border: 1px solid #576943;
+   position: absolute;
+   left: 44%;
+   top: 2.95%;
 }
 .event-bottom-space {
    height: 25px;
@@ -277,6 +328,23 @@ h4 {
 .index-contact-section{
    width: 1200px;
    margin: auto;
+   position: relative;
+}
+.contact-upper-decoration{
+   width: 130px;
+   height: 50px;
+   border: 1px solid #576943;
+   position: absolute;
+   left: 44.5%;
+   top: 5.55%;
+}
+.contact-bottom-decoration{
+   width: 130px;
+   height: 50px;
+   border: 1px solid #576943;
+   position: absolute;
+   left: 44%;
+   top: 6.57%;
 }
 .index-contact-section img{
    width: 1200px;
