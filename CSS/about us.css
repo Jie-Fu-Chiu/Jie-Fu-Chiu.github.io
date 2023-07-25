@@ -157,7 +157,6 @@ nav{
    position: absolute;
    right: 30%;
    bottom: 20%;
-
 }
 .founder-story-txt h3{
    font-family: 'Noto Serif TC', serif;
@@ -173,4 +172,29 @@ nav{
    letter-spacing: 0.1em;
    padding: 15px;
    color: #333333;
+}
+h2 {
+   font-family: 'Noto Serif TC', serif;
+   color: #333333;
+   font-size: 1.7em;
+   letter-spacing: 0.1em;
+   text-align: center;
+}
+.together-enjoy-slogan {
+   font-size: 1.13em;
+   line-height: 36px;
+   letter-spacing: 0.05em;
+   text-decoration: underline;
+   color: #333333;
+   font-family: 'Noto Serif TC', serif;
+   text-align: center;
+}
+.experience-tea-slogan {
+   font-size: 1.13em;
+   line-height: 36px;
+   letter-spacing: 0.05em;
+   text-decoration: underline;
+   color: #333333;
+   font-family: 'Noto Serif TC', serif;
+   text-align: center;
 }
