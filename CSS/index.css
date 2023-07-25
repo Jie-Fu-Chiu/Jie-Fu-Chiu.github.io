@@ -1,5 +1,5 @@
 .title-upper-space{
-   height: 85px;
+   height: 60px;
 }
 .title-bottom-space{
    height: 60px;
@@ -68,11 +68,132 @@ h4 {
    color: #333333;
    display: inline-block;
    width: 100%;
-   padding: 25px 20px 85px 0px;
+   padding: 25px 20px 0px 0px;
    text-align: right;
+}
+.index-product-section{
+   width: 1200px;
+   margin: auto;
+}
+.product-slogan{
+   position: relative;
+}
+.taste-selection-slogan{
+   font-size: 1.13em;
+   line-height: 36px;
+   letter-spacing: 0.05em;
+   text-decoration: underline;
+   color: #333333;
+   font-family: 'Noto Serif TC', serif;
+   display: block;
+   position: absolute;
+   left: 35%;
+}
+.taste-tea-slogan{
+   font-size: 1.13em;
+   line-height: 36px;
+   letter-spacing: 0.05em;
+   text-decoration: underline;
+   color: #333333;
+   font-family: 'Noto Serif TC', serif;
+   display: block;
+   position: absolute;
+   right: 35%;
+   top: 35px;
+}
+.product-section{
+   width: 1200px;
+   height: 387px;
+   margin: 40px 0;
+   display: flex;
+}
+.product-section-txt{
+   width: 345px;
+   height: 387px;
+   border: 1px solid #333333;
+   position: relative;
+}
+.product-ranking{
+   display: inline-block;
+   width: 110px;
+   height: 137px;
+   font-size: 80px;
+   letter-spacing: 0.05em;
+   font-family: 'Cormorant Infant', serif;
+   color: #fff;
+   position: absolute;
+   top: -11%;
+   opacity: .8;
+}
+.product-name{
+   writing-mode: vertical-lr;
+   font-family: 'Noto Serif TC', serif;
+   font-size: 24px;
+   letter-spacing: 0.3em;
+   /* padding: 5px; */
+   color: #576943;
+   position: absolute;
+   left: 28%;
+   top: 20%;
+}
+.name-line{
+   border-left: 0.08em solid #7d7d7d;
+   height:78%;
+   position: absolute;
+   left: 40%;
+   bottom: 28%;
+}
+.product-dsc{
+   width: 115px;
+   height: 250px;
+   writing-mode: vertical-lr;
+   line-height: 25px;
+   font-size: 15px;
+   letter-spacing: 0.1em;
+   text-align: justify;
+   font-family: 'Noto Sans TC', sans-serif;
+   position: absolute;
+   left: 47%;
+   top: 20%;
+}
+.product-section-image{
+   width: 830px;
+   height: 387px;
+   padding-left: 20px;
+}
+.product-section-image img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   box-shadow: 2px 2px 4px rgb(120, 120, 120);
+}
+.product-section-second{
+   width: 1200px;
+   height: 387px;
+   margin: 60px 0;
+   display: flex;
+   flex-direction: row-reverse;
+}
+.product-section-second-image{
+   width: 830px;
+   height: 387px;
+   padding-right: 20px;
+}
+.product-section-second-image img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   box-shadow: 2px 2px 4px rgb(120, 120, 120);
+}
+.index-event-section{
+   width: 1200px;
+   margin: auto;
 }
 .event-bottom-space {
    height: 25px;
+}
+.event-slogan{
+   position: relative;
 }
 .together-enjoy-slogan {
    font-size: 1.13em;
@@ -81,7 +202,9 @@ h4 {
    text-decoration: underline;
    color: #333333;
    font-family: 'Noto Serif TC', serif;
-   text-align: center;
+   display: block;
+   position: absolute;
+   left: 35%;
 }
 .experience-tea-slogan {
    font-size: 1.13em;
@@ -90,11 +213,10 @@ h4 {
    text-decoration: underline;
    color: #333333;
    font-family: 'Noto Serif TC', serif;
-   text-align: center;
-}
-.index-event-section{
-   width: 1200px;
-   margin: auto;
+   display: block;
+   position: absolute;
+   right: 35%;
+   top: 35px;
 }
 .chinesechado,.flowerandtea,.japanesechado{
    display: flex;
