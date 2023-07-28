@@ -1,3 +1,65 @@
+.index-banner{
+   width: 1200px;
+   height: 600px;
+   margin: auto;
+   position: relative;
+}
+.index-banner-image{
+   width: 1200px;
+   height: 600px;
+   position: relative;
+}
+.index-banner-image img{
+   width: 100%;
+   height: 600px;
+   object-fit: cover;
+   box-shadow: 2px 2px 4px rgb(120, 120, 120);
+   position: absolute;
+   left: -12%;
+}
+.index-txt-bgc{
+   width: 400px;
+   height: 200px;
+   background-color: #D9D9D9;
+   opacity: 85%;
+   box-shadow: 2px 2px 4px rgb(120, 120, 120);
+   position: absolute;
+   right: 6%;
+   bottom: 24%;
+}
+.honey-secret{
+   font-family: 'Noto Serif TC', serif;
+   color: #576943;
+   font-size: 23px;
+   letter-spacing: 0.1em;
+   text-shadow: 0.1em 0.1em 0.2em #bebebe;
+   position: absolute;
+   left: 9%;
+   top: 27%;
+}
+.belongs-to{
+   font-family: 'Noto Serif TC', serif;
+   color: #576943;
+   font-size: 23px;
+   letter-spacing: 0.1em;
+   text-shadow: 0.1em 0.1em 0.2em #bebebe;
+   position: absolute;
+   left: 9%;
+   top: 50%;
+}
+.about-chanming-btn{
+   position: absolute;
+   right: 10%;
+   bottom: 14%;
+}
+.about-chanming-btn a{
+   text-decoration: none;
+   font-family: 'Noto Serif TC', serif;
+   color: #383838;
+   font-size: 15px;
+   letter-spacing: 0.1em;
+   text-shadow: 0.1em 0.1em 0.2em #bebebe;
+}
 .title-upper-space{
    height: 60px;
 }
@@ -13,6 +75,7 @@ h2{
    font-family: 'Noto Serif TC', serif;
    color: #333333;
    font-size: 1.7em;
+   text-shadow: 0.1em 0.1em 0.1em #bebebe;
    letter-spacing: 0.1em;
    text-align: center;
 }
@@ -52,18 +115,19 @@ h4 {
    font-size: 16px;
    letter-spacing: 0.1em;
    color: #576943;
-   padding: 15px 0 30px 10px;
+   padding: 20px 0 30px 17px;
 }
 .news-info {
    width: 285px;
    height: 215px;
    background-color: #fff;
    box-shadow: 2px 2px 4px rgb(120, 120, 120);
+   position: relative;
 }
 .news-info p {
    line-height: 25px;
    font-size: 14px;
-   padding: 0px 20px 30px 10px;
+   padding: 0px 20px 30px 17px;
    font-family: 'Noto Sans TC', sans-serif;
 }
 .news-info span {
@@ -76,6 +140,10 @@ h4 {
    padding-right: 20px;
    text-align: right;
    opacity: 70%;
+   display: block;
+   position: absolute;
+   right: 0.5%;
+   bottom: 6%;
 }
 .btn-viewmore a {
    font-size: 16px;
@@ -85,7 +153,7 @@ h4 {
    color: #333333;
    display: inline-block;
    width: 100%;
-   padding: 25px 20px 0px 0px;
+   padding: 25px 0px 0px 0px;
    text-align: right;
 }
 .index-product-section{
@@ -138,7 +206,7 @@ h4 {
 .product-section{
    width: 1200px;
    height: 387px;
-   margin: 40px 0;
+   margin: 40px 0 0 0;
    display: flex;
 }
 .product-section-txt{
@@ -164,8 +232,8 @@ h4 {
    font-family: 'Noto Serif TC', serif;
    font-size: 24px;
    letter-spacing: 0.3em;
-   /* padding: 5px; */
    color: #576943;
+   text-shadow: 0.1em 0.1em 0.1em #c4c4c4;
    position: absolute;
    left: 28%;
    top: 20%;
@@ -241,7 +309,7 @@ h4 {
    top: 2.95%;
 }
 .event-bottom-space {
-   height: 25px;
+   height: 35px;
 }
 .event-slogan{
    position: relative;
@@ -302,28 +370,91 @@ h4 {
    border: 1px solid #bebebe;
 }
 .event-title{
+   width: 565px;
+   height: 300px;
    display: flex;
    justify-content: center;
-   margin: 50px;
+   position: relative;
 }
-.event-title span{
-   font-size: 18px;
-   letter-spacing: 0.5em;
+.first-line{
+   font-size: 20px;
+   letter-spacing: 0.4em;
    padding: 6px;
    color: #576943;
    font-family: 'Noto Serif TC', serif;
    writing-mode: vertical-lr;
+   text-shadow: 0.1em 0.1em 0.1em #c4c4c4;
+   position: absolute;
+   top: 25%;
+   left: 48.4%;
+}
+.second-line{
+   font-size: 20px;
+   letter-spacing: 0.4em;
+   padding: 6px;
+   color: #576943;
+   font-family: 'Noto Serif TC', serif;
+   writing-mode: vertical-lr;
+   text-shadow: 0.1em 0.1em 0.1em #c4c4c4;
+   position: absolute;
+   top: 40%;
+   right: 40.6%;
 }
 .event-content{
-   width: 400px;
-   height: 300px;
-   margin: auto;
+   width: 565px;
+   height: 170px;
+   position: relative;
 }
 .event-content p{
+   text-align: center;
+   width: 400px;
+   height: 170px;
    font-size: 14px;
    line-height: 25px;
    color: #333333;
    font-family: 'Noto Sans TC', sans-serif;
+   position: absolute;
+   left: 19%;
+}
+.first-line-flower{
+   font-size: 20px;
+   letter-spacing: 0.4em;
+   padding: 6px;
+   color: #576943;
+   font-family: 'Noto Serif TC', serif;
+   writing-mode: vertical-lr;
+   text-shadow: 0.1em 0.1em 0.1em #c4c4c4;
+   position: absolute;
+   top: 25%;
+   left: 45.4%;
+}
+.second-line-flower{
+   font-size: 20px;
+   letter-spacing: 0.4em;
+   padding: 6px;
+   color: #576943;
+   font-family: 'Noto Serif TC', serif;
+   writing-mode: vertical-lr;
+   text-shadow: 0.1em 0.1em 0.1em #c4c4c4;
+   position: absolute;
+   top: 40%;
+   right: 43.6%;
+}
+.event-content-flower{
+   width: 565px;
+   height: 170px;
+   position: relative;
+}
+.event-content-flower p{
+   text-align: center;
+   width: 400px;
+   height: 170px;
+   font-size: 14px;
+   line-height: 25px;
+   color: #333333;
+   font-family: 'Noto Sans TC', sans-serif;
+   position: absolute;
+   left: 14%;
 }
 .index-contact-section{
    width: 1200px;
@@ -336,7 +467,7 @@ h4 {
    border: 1px solid #576943;
    position: absolute;
    left: 44.5%;
-   top: 5.55%;
+   top: 5.89%;
 }
 .contact-bottom-decoration{
    width: 130px;
@@ -351,4 +482,56 @@ h4 {
    height: 600px;
    object-fit: cover;
    transform:scaleX(-1);
+}
+.chanming-service-title{
+   font-family: 'Noto Serif TC', serif;
+   color: #fff;
+   font-size: 28px;
+   letter-spacing: 0.1em;
+   text-shadow: 0.1em 0.1em 0.2em #383838;
+   text-decoration: underline;
+   display: block;
+   position: absolute;
+   left: 5%;
+   top: 25%;
+}
+.chanming-address{
+   font-family: 'Noto Serif TC', serif;
+   color: #fff;
+   font-size: 16px;
+   letter-spacing: 0.1em;
+   text-shadow: 0.1em 0.1em 0.2em #383838;
+   display: block;
+   position: absolute;
+   left: 5%;
+   top: 35%;
+}
+.chanming-tel{
+   font-family: 'Noto Serif TC', serif;
+   color: #fff;
+   font-size: 16px;
+   letter-spacing: 0.1em;
+   text-shadow: 0.1em 0.1em 0.2em #383838;
+   display: block;
+   position: absolute;
+   left: 5%;
+   top: 39%;
+}
+.chanming-email{
+   font-family: 'Noto Serif TC', serif;
+   color: #fff;
+   font-size: 16px;
+   letter-spacing: 0.1em;
+   text-shadow: 0.1em 0.1em 0.2em #383838;
+   display: block;
+   position: absolute;
+   left: 5%;
+   top: 43%;
+}
+.contact-map{
+   width: 350px;
+   height: 300px;
+   position: absolute;
+   left: 5%;
+   top: 50%;
 }
