@@ -3,32 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>關於蟬茗</title>
+    <title>蟬茗</title>
     <link rel="stylesheet" href="CSS/reset.css">
     <link rel="stylesheet" href="CSS/for_all.css">
-    <link rel="stylesheet" href="CSS/about us.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="CSS/index.css">
+    <link rel="stylesheet" href="CSS/grid.css">
+    <link rel="stylesheet" href="CSS/animate.css">
+    <script src="JavaScript/jquery-3.7.0.js"></script>
+    <script src="JavaScript/index.js"></script>
+	<script src="JavaScript/jquery.lettering.js"></script>
+	<script src="JavaScript/jquery.textillate.js"></script>
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="menu-logo">
-            <a href="index.html"><img src="Images/Logo.png"alt=""></a>
-            </div>
-            <ul class="menu-bar">
-                <li><a href="#">關於蟬茗</a></li>
-                <li><a href="news.html">最新消息</a></li>
-                <li><a href="#">職人選茶</a></li>
-                <li><a href="#">藝同沏茶</a></li>
-                <li><a href="#">常見問題</a></li>
-                <li><a href="#">聯絡我們</a></li>
-            </ul>
-            <ul class="menu-login">
-                <li><a href="#">登入</a></li>
-                <li><a href="#">加入蟬茗</a></li>
-                <li><a href="#"><i class="fa-sharp fa-solid fa-cart-shopping"></i></a></li>
-            </ul>
+    <input type="checkbox" name="" id="menu-switch">
+    <header class="main-header">
+        <div class="logo">
+            <a href="#">
+                <img src="Images/Logo.png"alt="">
+            </a>
+        </div>
+
+        <div class="hb">
+            <label for="menu-switch">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+        </div>
+
+        <nav class="main-nav">
+            <a href="about_us.html">關於蟬茗</a>
+            <a href="news.html">最新消息</a>
+            <a href="#">職人選茶</a>
+            <a href="#">藝同沏茶</a>
+            <a href="#">常見問題</a>
+            <a href="#">聯絡我們</a>
         </nav>
+
+        <nav class="menu-login">
+            <a href="#">登入</a>
+            <a href="#">加入蟬茗</a>
+        </nav>        
     </header>
 
     <div class="about-us-section">
