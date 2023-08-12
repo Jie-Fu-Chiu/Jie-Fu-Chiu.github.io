@@ -1,0 +1,538 @@
+.index-banner{
+   width: 1200px;
+   height: 600px;
+   margin: auto;
+   position: relative;
+}
+.index-banner-image{
+   width: 1200px;
+   height: 600px;
+   position: relative;
+}
+.index-banner-image img{
+   width: 100%;
+   height: 600px;
+   object-fit: cover;
+   box-shadow: 2px 2px 4px rgb(120, 120, 120);
+   position: absolute;
+   left: -12%;
+}
+.index-txt-bgc{
+   width: 400px;
+   height: 200px;
+   background-color: #D9D9D9;
+   opacity: 85%;
+   box-shadow: 2px 2px 4px rgb(120, 120, 120);
+   position: absolute;
+   right: 6%;
+   bottom: 24%;
+}
+.honey-secret{
+   font-family: 'Noto Serif TC', serif;
+   color: #576943;
+   font-size: 23px;
+   letter-spacing: 0.1em;
+   text-shadow: 0.1em 0.1em 0.2em #bebebe;
+   position: absolute;
+   left: 9%;
+   top: 27%;
+}
+.belongs-to{
+   font-family: 'Noto Serif TC', serif;
+   color: #576943;
+   font-size: 23px;
+   letter-spacing: 0.1em;
+   text-shadow: 0.1em 0.1em 0.2em #bebebe;
+   position: absolute;
+   left: 9%;
+   top: 50%;
+}
+.about-chanming-btn{
+   position: absolute;
+   right: 10%;
+   bottom: 14%;
+}
+.about-chanming-btn a{
+   text-decoration: none;
+   font-family: 'Noto Serif TC', serif;
+   color: #383838;
+   font-size: 15px;
+   letter-spacing: 0.1em;
+   text-shadow: 0.1em 0.1em 0.2em #bebebe;
+}
+.title-upper-space{
+   height: 60px;
+}
+.title-bottom-space{
+   height: 60px;
+}
+.news{
+   width: 1200px;
+   margin: auto;
+   position: relative;
+}
+h2{
+   font-family: 'Noto Serif TC', serif;
+   color: #333333;
+   font-size: 1.7em;
+   text-shadow: 0.1em 0.1em 0.1em #bebebe;
+   letter-spacing: 0.1em;
+   text-align: center;
+}
+.news-upper-decoration{
+   width: 130px;
+   height: 50px;
+   border: 1px solid #576943;
+   position: absolute;
+   left: 44.5%;
+   top: 6.6%;
+}
+.news-bottom-decoration{
+   width: 130px;
+   height: 50px;
+   border: 1px solid #576943;
+   position: absolute;
+   left: 44%;
+   top: 7.5%;
+}
+.card-wrap{
+   display: flex;
+   flex-wrap: wrap;
+   margin: auto;
+   justify-content: space-between;
+}
+.card-image{
+   width: 285px;
+   height: 285px;
+}
+.card-image img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+h4 {
+   font-family: 'Noto Serif TC', serif;
+   font-size: 16px;
+   letter-spacing: 0.1em;
+   color: #576943;
+   padding: 20px 0 30px 17px;
+}
+.news-info {
+   width: 285px;
+   height: 215px;
+   background-color: #fff;
+   box-shadow: 2px 2px 4px rgb(120, 120, 120);
+   position: relative;
+}
+.news-info p {
+   line-height: 25px;
+   font-size: 14px;
+   padding: 0px 20px 30px 17px;
+   font-family: 'Noto Sans TC', sans-serif;
+}
+.news-info span {
+   line-height: 25px;
+   font-size: 10px;
+   letter-spacing: 0.1em;
+   font-family: 'Lato', sans-serif;
+   color: #404040;
+   display: block;
+   padding-right: 20px;
+   text-align: right;
+   opacity: 70%;
+   display: block;
+   position: absolute;
+   right: 0.5%;
+   bottom: 6%;
+}
+.btn-viewmore a {
+   font-size: 16px;
+   letter-spacing: 0.1em;
+   text-decoration: none;
+   font-family: 'Lato', sans-serif;
+   color: #333333;
+   display: inline-block;
+   width: 100%;
+   padding: 25px 0px 0px 0px;
+   text-align: right;
+}
+.index-product-section{
+   width: 1200px;
+   margin: auto;
+   position: relative;
+}
+.product-upper-decoration{
+   width: 130px;
+   height: 50px;
+   border: 1px solid #576943;
+   position: absolute;
+   left: 44.5%;
+   top: 3.1%;
+}
+.product-bottom-decoration{
+   width: 130px;
+   height: 50px;
+   border: 1px solid #576943;
+   position: absolute;
+   left: 44%;
+   top: 3.5%;
+}
+.product-slogan{
+   position: relative;
+}
+.taste-selection-slogan{
+   font-size: 1.13em;
+   line-height: 36px;
+   letter-spacing: 0.05em;
+   text-decoration: underline;
+   color: #333333;
+   font-family: 'Noto Serif TC', serif;
+   display: block;
+   position: absolute;
+   left: 35%;
+}
+.taste-tea-slogan{
+   font-size: 1.13em;
+   line-height: 36px;
+   letter-spacing: 0.05em;
+   text-decoration: underline;
+   color: #333333;
+   font-family: 'Noto Serif TC', serif;
+   display: block;
+   position: absolute;
+   right: 35%;
+   top: 35px;
+}
+.product-section{
+   width: 1200px;
+   height: 387px;
+   margin: 40px 0 0 0;
+   display: flex;
+}
+.product-section-txt{
+   width: 345px;
+   height: 387px;
+   border: 1px solid #333333;
+   position: relative;
+}
+.product-ranking{
+   display: inline-block;
+   width: 110px;
+   height: 137px;
+   font-size: 80px;
+   letter-spacing: 0.05em;
+   font-family: 'Cormorant Infant', serif;
+   text-shadow: 0.1em 0.1em 0.16em #c4c4c4;
+   color: #fff;
+   position: absolute;
+   top: -11%;
+   opacity: .8;
+}
+.product-name{
+   writing-mode: vertical-lr;
+   font-family: 'Noto Serif TC', serif;
+   font-size: 24px;
+   letter-spacing: 0.3em;
+   color: #576943;
+   text-shadow: 0.1em 0.1em 0.1em #c4c4c4;
+   position: absolute;
+   left: 28%;
+   top: 20%;
+}
+.name-line{
+   border-left: 0.08em solid #7d7d7d;
+   height:78%;
+   position: absolute;
+   left: 40%;
+   bottom: 28%;
+}
+.product-dsc{
+   width: 115px;
+   height: 250px;
+   writing-mode: vertical-lr;
+   line-height: 25px;
+   font-size: 15px;
+   letter-spacing: 0.1em;
+   text-align: justify;
+   font-family: 'Noto Sans TC', sans-serif;
+   position: absolute;
+   left: 47%;
+   top: 20%;
+}
+.product-section-image{
+   width: 830px;
+   height: 387px;
+   padding-left: 20px;
+}
+.product-section-image img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   box-shadow: 2px 2px 4px rgb(120, 120, 120);
+}
+.product-section-second{
+   width: 1200px;
+   height: 387px;
+   margin: 60px 0;
+   display: flex;
+   flex-direction: row-reverse;
+}
+.product-section-second-image{
+   width: 830px;
+   height: 387px;
+   padding-right: 20px;
+}
+.product-section-second-image img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   box-shadow: 2px 2px 4px rgb(120, 120, 120);
+}
+.index-event-section{
+   width: 1200px;
+   margin: auto;
+   position: relative;
+}
+.event-upper-decoration{
+   width: 130px;
+   height: 50px;
+   border: 1px solid #576943;
+   position: absolute;
+   left: 44.5%;
+   top: 2.6%;
+}
+.event-bottom-decoration{
+   width: 130px;
+   height: 50px;
+   border: 1px solid #576943;
+   position: absolute;
+   left: 44%;
+   top: 2.95%;
+}
+.event-bottom-space {
+   height: 35px;
+}
+.event-slogan{
+   position: relative;
+}
+.together-enjoy-slogan {
+   font-size: 1.13em;
+   line-height: 36px;
+   letter-spacing: 0.05em;
+   text-decoration: underline;
+   color: #333333;
+   font-family: 'Noto Serif TC', serif;
+   display: block;
+   position: absolute;
+   left: 35%;
+}
+.experience-tea-slogan {
+   font-size: 1.13em;
+   line-height: 36px;
+   letter-spacing: 0.05em;
+   text-decoration: underline;
+   color: #333333;
+   font-family: 'Noto Serif TC', serif;
+   display: block;
+   position: absolute;
+   right: 35%;
+   top: 35px;
+}
+.chinesechado,.flowerandtea,.japanesechado{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 40px 0;
+}
+.index-event-image{
+   width: 565px;
+   height: 370px;
+   margin-right: -3%;
+   position: relative;
+}
+.flowerandtea {
+   flex-direction: row-reverse;
+}
+.flowerandtea .index-event-image {
+   margin-left: -3%;
+   margin-right: 0;
+}
+.index-event-image img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   box-shadow: 2px 2px 4px rgb(120, 120, 120);
+   /* margin-right: -10%; */
+}
+.index-event-info{
+   width: 565px;
+   height: 470px;
+   background-color: #fff;
+   border: 1px solid #bebebe;
+}
+.event-title{
+   width: 565px;
+   height: 300px;
+   display: flex;
+   justify-content: center;
+   position: relative;
+}
+.first-line{
+   font-size: 20px;
+   letter-spacing: 0.4em;
+   padding: 6px;
+   color: #576943;
+   font-family: 'Noto Serif TC', serif;
+   writing-mode: vertical-lr;
+   text-shadow: 0.1em 0.1em 0.1em #c4c4c4;
+   position: absolute;
+   top: 25%;
+   left: 48.4%;
+}
+.second-line{
+   font-size: 20px;
+   letter-spacing: 0.4em;
+   padding: 6px;
+   color: #576943;
+   font-family: 'Noto Serif TC', serif;
+   writing-mode: vertical-lr;
+   text-shadow: 0.1em 0.1em 0.1em #c4c4c4;
+   position: absolute;
+   top: 40%;
+   right: 40.6%;
+}
+.event-content{
+   width: 565px;
+   height: 170px;
+   position: relative;
+}
+.event-content p{
+   text-align: center;
+   width: 400px;
+   height: 170px;
+   font-size: 14px;
+   line-height: 25px;
+   color: #333333;
+   font-family: 'Noto Sans TC', sans-serif;
+   position: absolute;
+   left: 19%;
+}
+.first-line-flower{
+   font-size: 20px;
+   letter-spacing: 0.4em;
+   padding: 6px;
+   color: #576943;
+   font-family: 'Noto Serif TC', serif;
+   writing-mode: vertical-lr;
+   text-shadow: 0.1em 0.1em 0.1em #c4c4c4;
+   position: absolute;
+   top: 25%;
+   left: 45.4%;
+}
+.second-line-flower{
+   font-size: 20px;
+   letter-spacing: 0.4em;
+   padding: 6px;
+   color: #576943;
+   font-family: 'Noto Serif TC', serif;
+   writing-mode: vertical-lr;
+   text-shadow: 0.1em 0.1em 0.1em #c4c4c4;
+   position: absolute;
+   top: 40%;
+   right: 43.6%;
+}
+.event-content-flower{
+   width: 565px;
+   height: 170px;
+   position: relative;
+}
+.event-content-flower p{
+   text-align: center;
+   width: 400px;
+   height: 170px;
+   font-size: 14px;
+   line-height: 25px;
+   color: #333333;
+   font-family: 'Noto Sans TC', sans-serif;
+   position: absolute;
+   left: 14%;
+}
+.index-contact-section{
+   width: 1200px;
+   margin: auto;
+   position: relative;
+}
+.contact-upper-decoration{
+   width: 130px;
+   height: 50px;
+   border: 1px solid #576943;
+   position: absolute;
+   left: 44.5%;
+   top: 5.89%;
+}
+.contact-bottom-decoration{
+   width: 130px;
+   height: 50px;
+   border: 1px solid #576943;
+   position: absolute;
+   left: 44%;
+   top: 6.57%;
+}
+.index-contact-section img{
+   width: 1200px;
+   height: 600px;
+   object-fit: cover;
+   transform:scaleX(-1);
+}
+.chanming-service-title{
+   font-family: 'Noto Serif TC', serif;
+   color: #fff;
+   font-size: 28px;
+   letter-spacing: 0.1em;
+   text-shadow: 0.1em 0.1em 0.2em #383838;
+   text-decoration: underline;
+   display: block;
+   position: absolute;
+   left: 5%;
+   top: 25%;
+}
+.chanming-address{
+   font-family: 'Noto Serif TC', serif;
+   color: #fff;
+   font-size: 16px;
+   letter-spacing: 0.1em;
+   text-shadow: 0.1em 0.1em 0.2em #383838;
+   display: block;
+   position: absolute;
+   left: 5%;
+   top: 35%;
+}
+.chanming-tel{
+   font-family: 'Noto Serif TC', serif;
+   color: #fff;
+   font-size: 16px;
+   letter-spacing: 0.1em;
+   text-shadow: 0.1em 0.1em 0.2em #383838;
+   display: block;
+   position: absolute;
+   left: 5%;
+   top: 39%;
+}
+.chanming-email{
+   font-family: 'Noto Serif TC', serif;
+   color: #fff;
+   font-size: 16px;
+   letter-spacing: 0.1em;
+   text-shadow: 0.1em 0.1em 0.2em #383838;
+   display: block;
+   position: absolute;
+   left: 5%;
+   top: 43%;
+}
+.contact-map{
+   width: 350px;
+   height: 300px;
+   position: absolute;
+   left: 5%;
+   top: 50%;
+}
