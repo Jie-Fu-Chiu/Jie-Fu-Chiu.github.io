@@ -13,6 +13,7 @@ body{
    padding: 5px 0 5px 0;
    background-color: #576943;
    position: relative;
+   z-index: 10;
 }
 
 .main-nav{

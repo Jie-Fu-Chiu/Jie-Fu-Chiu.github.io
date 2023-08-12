@@ -1,5 +1,6 @@
 .index-banner{
    margin: auto;
+   position: relative;
 }
 .index-banner-image{
    width: 100%;
@@ -9,6 +10,51 @@
    height: 60vw;
    box-shadow: 2px 2px 4px rgb(120, 120, 120);
    margin-left: -8%;
+}
+.index-txt-bgc{
+   width: 50%;
+   height: 23vw;
+   background-color: #D9D9D9;
+   opacity: 85%;
+   box-shadow: 2px 2px 4px rgb(120, 120, 120);
+   position: absolute;
+   bottom: 15%;
+   right: 5%;
+   /* right: 6%; */
+   /* bottom: 24%; */
+}
+.honey-secret{
+   font-family: 'Noto Serif TC', serif;
+   color: #576943;
+   font-size: 16px;
+   letter-spacing: 0.1em;
+   text-shadow: 0.1em 0.1em 0.2em #bebebe;
+   position: absolute;
+   left: 7%;
+   top: 17%;
+}
+.belongs-to{
+   font-family: 'Noto Serif TC', serif;
+   color: #576943;
+   font-size: 16px;
+   letter-spacing: 0.1em;
+   text-shadow: 0.1em 0.1em 0.2em #bebebe;
+   position: absolute;
+   left: 7%;
+   top: 47%;
+}
+.about-chanming-btn{
+   position: absolute;
+   right: 10%;
+   bottom: 10%;
+}
+.about-chanming-btn a{
+   text-decoration: none;
+   font-family: 'Noto Serif TC', serif;
+   color: #383838;
+   font-size: 12px;
+   letter-spacing: 0.1em;
+   text-shadow: 0.1em 0.1em 0.2em #bebebe;
 }
 .news{
    width: 100%;
@@ -379,6 +425,18 @@
    margin: 34% 0 0 5%;
 }
 @media screen and (min-width: 414px) {
+   .honey-secret{
+      font-size: 1.13em;
+      left: 6%;
+   }
+   .belongs-to{
+      font-size: 1.13em;
+      left: 6%;
+      top: 50%;
+   }
+   .about-chanming-btn{
+      right: 8%;
+   }
    .product-section-txt{
       width: 50%;
    }
@@ -413,6 +471,24 @@
    }
 }
 @media screen and (min-width: 768px) {
+   .index-txt-bgc{
+      width: 40%;
+   }
+   .honey-secret{
+      font-size: 1.5em;
+      left: 6%;
+   }
+   .belongs-to{
+      font-size: 1.5em;
+      left: 6%;
+      top: 50%;
+   }
+   .about-chanming-btn{
+      right: 8%;
+   }
+   .about-chanming-btn a{
+      font-size: 1.2em;
+   }
    .product-section-txt{
       width: 50%;
       border: 1px solid #333333;

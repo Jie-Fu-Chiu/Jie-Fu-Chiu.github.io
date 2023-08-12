@@ -1,74 +1,93 @@
-.title-upper-space{
-   height: 85px;
-}
-.title-bottom-space{
-   height: 60px;
-}
-.news-banner{
-    width: 100%;
-    height: 526px;
-    position: relative;
-}
-.news-banner img{
-    width: 100%;
-    height: 526px;
-    object-fit: cover;
-}
-.news-ch{
-    writing-mode: vertical-lr;
-    font-size: 28px;
-    font-family: 'Noto Serif TC', serif;
-    letter-spacing: 0.3em;
-    color: white;
-    position: absolute;
-    left: 47%;
-    bottom: 33%;
- }
- .title-line{
-    border-left: 1.5px solid #fff;
-    height:30%;
-    position: absolute;
-    left: 50%;
-    bottom: 31%;
- }
- .news-en{
-    writing-mode: vertical-lr;
-    font-size: 28px;
-    font-family: 'Old Standard TT', serif;
-    letter-spacing: 0.1em;
-    color: white;
-    position: absolute;
-    right: 47%;
-    bottom: 40%;
- }
- .news-column{
-   width: 1200px;
+.news-banner {
+   width: 100%;
+   height: 40vw;
    margin: auto;
- }
- .news-section{
+   position: relative;
+}
+
+.news-image {
+   width: 100%;
+   height: 40vw;
+   position: relative;
+   overflow: hidden;
+}
+
+.news-image img {
+   width: 100%;
+   height: 40vw;
+   object-fit: cover;
+   vertical-align: bottom;
+}
+
+.title-flex {
+   display: flex;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   z-index: 1;
+   text-align: center;
+}
+
+.news-ch {
+   writing-mode: vertical-lr;
+   font-size: 16px;
+   font-family: 'Noto Serif TC', serif;
+   letter-spacing: 0.3em;
+   text-shadow: 0.1em 0.1em 0.1em #969696;
+   color: white;
+   margin: auto;
+}
+
+hr {
+   border:1px solid white;
+   margin: 0 0.2em;
+   text-shadow: 0.1em 0.1em 0.1em #969696;
+}
+
+.news-en {
+   writing-mode: vertical-lr;
+   font-size: 16px;
+   font-family: 'Old Standard TT', serif;
+   letter-spacing: 0.1em;
+   text-shadow: 0.1em 0.1em 0.1em #969696;
+   color: white;
+}
+
+.news-column {
+   width: 100%;
+   max-width: 1200px;
+   margin: auto;
+}
+
+.news-section {
    width: 800px;
    height: 160px;
    margin: 10px auto;
    border: 1.2px solid #707070;
    display: flex;
- }
- .news-section-image{
+}
+
+.news-section-image{
    width: 180px;
    height: 120px;
    padding: 10px;
- }
- .news-section-image img{
+}
+
+.news-section-image img{
    width: 100%;
    object-fit: cover;
- }
- h4 {
+}
+
+h4 {
    font-family: 'Noto Serif TC', serif;
    font-size: 16px;
    letter-spacing: 0.1em;
    color: #576943;
    padding: 10px 0 10px 10px;
 }
-p{
+
+p {
    line-height: 20px;
    font-size: 14px;
    padding: 0px 20px 30px 10px;
