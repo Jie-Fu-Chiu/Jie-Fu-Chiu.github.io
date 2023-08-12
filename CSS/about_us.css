@@ -1,146 +1,175 @@
-.about-us-section{
-   width: 1200px;
+.about-us-banner {
+   width: 100%;
+   height: 40vw;
+   margin: auto;
+   position: relative;
+}
+
+.about-us-image {
+   width: 100%;
+   height: 40vw;
+   position: relative;
+   overflow: hidden;
+}
+
+.about-us-image img {
+   width: 100%;
+   height: 40vw;
+   object-fit: cover;
+   vertical-align: bottom;
+}
+
+.title-flex {
+   display: flex;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   z-index: 1;
+   text-align: center;
+}
+
+.about-us-ch {
+   writing-mode: vertical-lr;
+   font-size: 16px;
+   font-family: 'Noto Serif TC', serif;
+   letter-spacing: 0.3em;
+   text-shadow: 0.1em 0.1em 0.1em #969696;
+   color: white;
    margin: auto;
 }
-.about-us-banner{
-   height: 526px;
+
+hr {
+   border:1px solid white;
+   margin: 0 0.2em;
+   text-shadow: 0.1em 0.1em 0.1em #969696;
 }
-.about-us-image img{
-   height: 526px;
-   width: 100%;
-   object-fit: cover;
-   position: relative;
-}
-.about-us-ch{
+
+.about-us-en {
    writing-mode: vertical-lr;
-   font-size: 28px;
-   font-family: 'Noto Serif TC', serif;
-   letter-spacing: 0.3em;
-   color: white;
-   position: absolute;
-   left: 47%;
-   bottom: 33%;
-}
-.title-line{
-   border-left: 1.5px solid #fff;
-   height:30%;
-   position: absolute;
-   left: 50%;
-   bottom: 31%;
-}
-.about-us-en{
-   writing-mode: vertical-lr;
-   font-size: 28px;
+   font-size: 16px;
    font-family: 'Old Standard TT', serif;
    letter-spacing: 0.1em;
+   text-shadow: 0.1em 0.1em 0.1em #969696;
    color: white;
-   position: absolute;
-   right: 47%;
-   bottom: 31%;
 }
+
+.about-us-section{
+   width: 100%;
+   max-width: 1200px;
+   margin: auto;
+}
+
 .store-story-section{
-   height: 600px;
-   background: linear-gradient(to left, #AEA76D, #D9D9D9);
    position: relative;
 }
+
 .store-story-line{
    writing-mode: vertical-lr;
-   font-size: 24px;
+   font-size: 12px;
    font-family: 'Noto Serif TC', serif;
    letter-spacing: 0.3em;
-   color: #333333;
+   text-shadow: 0.1em 0.1em 0.2em #383838;
+   color: #fff;
    position: absolute;
-   left: 10%;
-   bottom: 33%;
+   margin: 5% 10% 0;
+   z-index: 1;
 }
 .store-story-txt{
    writing-mode: vertical-lr;
-   font-size: 24px;
+   font-size: 12px;
    font-family: 'Noto Serif TC', serif;
    letter-spacing: 0.3em;
-   color: #333333;
+   text-shadow: 0.1em 0.1em 0.2em #383838;
+   color: #fff;
    position: absolute;
-   left: 15%;
-   bottom: 26%;
+   margin: 7% 17% 0;
+   z-index: 2;
 }
 .store-story{
-   width: 350px;
-   height: 200px;
+   width: 50%;
    background-color: #D9D9D9;
    position: absolute;
-   left: 20%;
-   bottom: 23%;
+   bottom: 5%;
+   right: 5%;
+   z-index: 3;
 }
 .store-story p{
-   line-height: 25px;
-   font-size: 14px;
-   padding: 20px 20px;
+   line-height: 18px;
+   font-size: 12px;
+   text-align: left;
+   padding: 10px 10px;
+   letter-spacing: 0.1em;
    font-family: 'Noto Sans TC', sans-serif;
 }
 .about-us-story-image img{
-   width: 600px;
-   height: 400px;
+   width: 100%;
+   height: 60vw;
    object-fit: cover;
-   position: absolute;
-   right: 1%;
-   bottom: 26%;
+   vertical-align: bottom;
 }
 .founder-story{
-   height: 700px;
-   background-color: rgb(255, 255, 255);
+   width: 100%;
    position: relative;
 }
 .founder-story-image img{
-   width: 890px;
-   height: 575px;
+   width: 100%;
+   height: 85vw;
    object-fit: cover;
+   vertical-align: bottom;
 }
 .founder-story-txt{
-   width: 400px;
-   height: 200px;
+   width: 50%;
    background-color: #D9D9D9;
    border: #333333 solid 1px;
    position: absolute;
-   right: 30%;
-   bottom: 20%;
+   right: 5%;
+   bottom: 5%;
 }
 .founder-story-txt h3{
    font-family: 'Noto Serif TC', serif;
-   font-size: 24px;
+   font-size: 20px;
    letter-spacing: 0.1em;
-   padding: 10px 0 0 5px;
+   padding: 10px 0 0 10px;
    color: #576943;
 }
 .founder-story-txt p{
    font-family: 'Noto Sans TC', sans-serif;
-   line-height: 25px;
-   font-size: 14px;
+   line-height: 18px;
+   font-size: 12px;
    letter-spacing: 0.1em;
    padding: 15px;
    color: #333333;
 }
-h2 {
-   font-family: 'Noto Serif TC', serif;
-   color: #333333;
-   font-size: 1.7em;
-   letter-spacing: 0.1em;
-   text-align: center;
+
+@media screen and (min-width: 414px) {
+   .store-story-line, .store-story-txt{
+      font-size: 14px;
+   }
+   .store-story p{
+      line-height: 22px;
+   }
 }
-.together-enjoy-slogan {
-   font-size: 1.13em;
-   line-height: 36px;
-   letter-spacing: 0.05em;
-   text-decoration: underline;
-   color: #333333;
-   font-family: 'Noto Serif TC', serif;
-   text-align: center;
-}
-.experience-tea-slogan {
-   font-size: 1.13em;
-   line-height: 36px;
-   letter-spacing: 0.05em;
-   text-decoration: underline;
-   color: #333333;
-   font-family: 'Noto Serif TC', serif;
-   text-align: center;
+@media screen and (min-width: 768px) {
+   .about-us-ch, .about-us-en{
+      font-size: 26px;
+   }
+   .store-story-line, .store-story-txt{
+      font-size: 22px;
+   }
+   .store-story p{
+      font-size: 16px;
+      line-height: 26px;
+      letter-spacing: 0.2em;
+      padding: 15px 15px;
+   }
+   .founder-story-txt h3{
+      font-size: 20px;
+   }
+   .founder-story-txt p{
+      font-size: 16px;
+      line-height: 26px;
+      letter-spacing: 0.2em;
+      padding: 15px 15px;
+   }
 }
