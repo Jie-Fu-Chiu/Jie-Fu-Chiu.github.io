@@ -62,7 +62,22 @@ hr {
    height: 200px;
    object-fit: cover;
 }
-
+h3{
+   font-family: 'Noto Serif TC', serif;
+   font-size: 16px;
+   text-decoration: underline;
+   letter-spacing: 0.1em;
+   color: #576943;
+   text-shadow: 0.1em 0.1em 0.2em #bebebe;
+   margin: 12px 0;
+}
+p{
+   line-height: 22px;
+   font-size: 14px;
+   text-align: justify;
+   padding-left: 20px;
+   font-family: 'Noto Sans TC', sans-serif;
+}
 @media screen and (min-width: 768px) {
    .products-ch, .products-en{
       font-size: 26px;
