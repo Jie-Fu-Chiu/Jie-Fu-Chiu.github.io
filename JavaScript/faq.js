@@ -26,11 +26,3 @@ $(function () {
         },
     })
 })
-$(function () {
-    $('.card img').css('opacity', 0.5);
-    $('.card img').first().css('opacity', 1);
-    $('.card img').mouseover(function(){
-        $(this).fadeTo(200, 1);
-        $('.card img').not(this).fadeTo(200, 0.5);
-    });
-});
