@@ -1,9 +1,8 @@
-<script>
 $(function () {
-    $('#news-headline').textillate({
-        loop: true,
+    $('#theText').textillate({
+        loop: false,
         in: {
-            effect: 'rollIn',
+            effect: 'fadeInRight',
             delayScale: 1.5,
             delay: 50,
             sync: true,
@@ -13,4 +12,3 @@ $(function () {
         },
     })
 })
-</script>

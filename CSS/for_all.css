@@ -12,7 +12,8 @@ body{
    justify-content: space-around;
    padding: 5px 0 5px 0;
    background-color: #576943;
-   position: relative;
+   position: sticky;
+   top: 0;
    z-index: 10;
 }
 
